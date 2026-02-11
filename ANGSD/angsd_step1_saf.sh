@@ -38,9 +38,3 @@ cd $WORKDIR
     -GL 1 \                           # genotype likelihood model (SAMtools)
     -doCounts 1 \                     # count data
     -doMajorMinor 1 \                 # infer major/minor alleles
-    -uniqueOnly 1 \                   # use only uniquely mapping reads
-    -remove_bads 1 \                  # remove bad reads
-    -only_proper_pairs 1 \            # keep only properly paired reads
-    -minMapQ 20 \                     # minimum mapping quality
-    -minQ 20 \                        # minimum base quality
-    -P 12                             # number of threads
