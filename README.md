@@ -16,9 +16,6 @@ This repository focuses on documenting and organizing the processing steps used 
   - Theta calculation
   - Theta statistics
 
-- spruce/
-  Contains scripts used to run SPrUCE and compute UCE-based nucleotide diversity estimates.
-
 - R_figures/
   Contains R scripts used to generate manuscript figures, including correlation analyses between ANGSD and SPrUCE diversity estimates.
 
@@ -28,7 +25,6 @@ To reproduce the analyses described in the manuscript:
 
 1. Prepare WGS data using scripts in WGS_data_preparation/
 2. Run the ANGSD workflow in ANGSD/ to obtain genome-wide nucleotide diversity estimates
-3. Run SPrUCE analyses using scripts in spruce/
-4. Generate figures using scripts in R_figures/
+3. Generate figures using scripts in R_figures/
 
 File paths and sample names may need to be adjusted depending on your computing environment.
